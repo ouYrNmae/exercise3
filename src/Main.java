@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Note: To end the program enter a number less than -460.");
         return input.nextInt();
     }
-    static int FToC ( int tempF){
+    static int FToC (int tempF){
         int tempC = (tempF-32)*5/9;
         return tempC;
     }
