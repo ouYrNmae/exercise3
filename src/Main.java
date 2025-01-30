@@ -8,7 +8,7 @@ public class Main {
         int quit = 0;
         while (quit == 0) {
             int tempF = userTemp();
-            int tempC = FToC(tempF);
+            int tempC = fToC(tempF);
             if (tempF < -460) {
                 quit = 1;
             } else {
@@ -23,7 +23,7 @@ public class Main {
         System.out.println("Note: To end the program enter a number less than -460.");
         return input.nextInt();
     }
-    static int FToC (int tempF){
+    static int fToC (int tempF){
         int tempC = (tempF-32)*5/9;
         return tempC;
     }
